@@ -54,18 +54,16 @@ body {
 
 /* home section */
 
-.home-section{
+.home-section {
   height: 600px;
   background-image: url(./images/Vectorrr.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 16px;
-
 }
 
-.home-section div{
+.home-section div {
   margin-left: 150px;
-  
 }
 
 .home-title {
@@ -95,30 +93,85 @@ body {
 
 /* event section */
 
-.event{
+.event {
   text-align: center;
   margin: 120px 140px;
   background-color: #d1bbbb;
   padding: 150px 300px;
   border-radius: 8px;
-
 }
 
-.event-date{
+.event-date {
   font-size: 32px;
   font-weight: 600;
 }
-.span-colum{
-  color: #F00;
+.span-colum {
+  color: #f00;
 }
 
-.btn-event{
+.btn-event {
   color: #fff;
-  font-size: 20px; 
+  font-size: 20px;
   font-weight: 700;
   background-color: #f00;
   border-radius: 8px;
   padding: 16px 32px;
   border: none;
   margin-top: 50px;
+}
+
+/* subcribe section */
+
+.subscribe{
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  padding: 80px 200px;
+  margin: 120px 140px;
+
+}
+
+.subscribe-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.subscribe-descrip {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container{
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 1px solid #ffc5dd;
+  height: 60px;
+  padding: 0px 3px 0px 8px;
+}
+
+input{
+  padding: 4px;
+  flex-grow: 1;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-right: 8px;
+}
+button{
+  height: 54px;
+  width: 94px;
+  background-color: #ff0266;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 50px;
 }
