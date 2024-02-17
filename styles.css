@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Merriweather", serif;
-  background: #FFF;
+  background: #fff;
 }
 
 .banner {
@@ -30,7 +30,7 @@ body {
 
 /* card section */
 
-.card{
+.card {
   text-align: center;
 }
 
@@ -50,4 +50,75 @@ body {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
+}
+
+/* home section */
+
+.home-section{
+  height: 600px;
+  background-image: url(./images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+
+}
+
+.home-section div{
+  margin-left: 150px;
+  
+}
+
+.home-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7px;
+}
+
+.home-descrip {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-home {
+  background-color: rgb(235, 181, 35);
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+/* event section */
+
+.event{
+  text-align: center;
+  margin: 120px 140px;
+  background-color: #d1bbbb;
+  padding: 150px 300px;
+  border-radius: 8px;
+
+}
+
+.event-date{
+  font-size: 32px;
+  font-weight: 600;
+}
+.span-colum{
+  color: #F00;
+}
+
+.btn-event{
+  color: #fff;
+  font-size: 20px; 
+  font-weight: 700;
+  background-color: #f00;
+  border-radius: 8px;
+  padding: 16px 32px;
+  border: none;
+  margin-top: 50px;
 }
